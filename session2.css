@@ -1,45 +1,36 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
 }
-
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+    gap: 25px;
+    width: 1000px;
 }
 
-.food-item {
-    background-color: white;
-    width: calc(33.333% - 20px);
-    min-width: 250px;
+.food-card {
+    width: 300px;
     text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.food-item img {
-    width: 100%;
+.food-card img {
+    width: 300px;
     height: 200px;
+    border-radius: 15px;
     object-fit: cover;
-    display: block;
 }
 
-.food-item p {
-    padding: 15px;
+.food-card p {
+    font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 14px;
-    color: #333;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 10px;
+    line-height: 1.4;
 }
